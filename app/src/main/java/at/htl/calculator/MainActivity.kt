@@ -15,4 +15,16 @@ class MainActivity : AppCompatActivity() {
     fun typeNumber(view: View) {
         output.text = (view as Button).text
     }
+
+    fun typeOperator(view: View) {
+        output.text = (view as Button).text
+    }
+
+    fun clear(view: View) {
+        output.text = "0"
+    }
+
+    fun calculate(view: View) {
+        output.text = "result"
+    }
 }
