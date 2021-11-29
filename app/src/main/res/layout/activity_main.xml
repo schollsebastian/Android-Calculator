@@ -120,12 +120,12 @@
             android:text="6" />
 
         <Button
-            android:id="@+id/btn_plus"
+            android:id="@+id/btn_minus"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="typeOperator"
-            android:text="+" />
+            android:text="-" />
     </LinearLayout>
 
     <LinearLayout
@@ -159,12 +159,13 @@
             android:text="3" />
 
         <Button
-            android:id="@+id/btn_minus"
+            android:id="@+id/btn_plus"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="typeOperator"
-            android:text="-" />
+            android:text="+" />
+
     </LinearLayout>
 
     <LinearLayout
