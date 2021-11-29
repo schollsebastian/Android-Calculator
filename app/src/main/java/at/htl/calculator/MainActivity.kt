@@ -7,9 +7,20 @@ import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+    private val OUTPUT = "output"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        if (savedInstanceState != null) {
+            output.text = savedInstanceState.getString(OUTPUT)
+        }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putString(OUTPUT, output.text.toString())
     }
 
     fun typeNumber(view: View) {
