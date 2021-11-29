@@ -57,4 +57,14 @@ class MainActivity : AppCompatActivity() {
 
         output.text = result.toString()
     }
+
+    fun delete(view: View) {
+        if (output.text.length == 1) {
+            output.text = "0"
+        } else if (output.text.last() == ' ') {
+            output.text = output.text.substring(0, output.text.length - 3)
+        } else {
+            output.text = output.text.substring(0, output.text.length - 1)
+        }
+    }
 }
