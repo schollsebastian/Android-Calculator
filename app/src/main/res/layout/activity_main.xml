@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -21,8 +22,7 @@
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:textAlignment="textEnd"
-            android:textSize="48sp"
-            tools:text="abc" />
+            android:textSize="48sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -58,6 +58,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="typeNumber"
             android:text="7" />
 
         <Button
@@ -65,6 +66,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="typeNumber"
             android:text="8" />
 
         <Button
@@ -72,6 +74,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="typeNumber"
             android:text="9" />
 
         <Button
@@ -93,6 +96,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="typeNumber"
             android:text="4" />
 
         <Button
@@ -100,6 +104,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="typeNumber"
             android:text="5" />
 
         <Button
@@ -107,6 +112,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="typeNumber"
             android:text="6" />
 
         <Button
@@ -128,6 +134,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="typeNumber"
             android:text="1" />
 
         <Button
@@ -135,6 +142,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="typeNumber"
             android:text="2" />
 
         <Button
@@ -142,6 +150,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="typeNumber"
             android:text="3" />
 
         <Button
@@ -163,6 +172,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
+            android:onClick="typeNumber"
             android:text="0" />
 
         <Button
